@@ -1,8 +1,17 @@
-# This Repository is developed to support the research article titled "INTELIGÊNCIA ARTIFICIAL E PROCESSAMENTO DE LINGUAGEM NATURAL NO MONITORAMENTO DA ESTRADA DE FERRO VITÓRIA – MINAS"
+# Research Article
 
-This repository contains code for a data science project papper focuses on the identification and analysis of occurrences in a dataset of instrumented wagons using NLP. 
+This repository is developed to support the research article titled **"INTELIGÊNCIA ARTIFICIAL E PROCESSAMENTO DE LINGUAGEM NATURAL NO MONITORAMENTO DA ESTRADA DE FERRO VITÓRIA – MINAS"**. 
+The article investigates the application of Natural Language Processing (NLP) techniques to identify occurrences in multiple datasets, including those manually filled with various errors such as typographical, semantic, and spelling mistakes.
 
-The goal is to develop a data pipeline that utilizes Natural Language Processing (NLP) techniques to identify and analyze occurrences in a dataset of instrumented wagons. The pipeline consists of the following steps:
+The main objective of this research is to find occurrences in these datasets and then cross-reference the occurrence data with the instrumented wagon data to gain insights into the behavior of the sensors during the occurrences. 
+The project utilizes NLP techniques for text preprocessing, occurrence identification, and semantic analysis. Various machine learning models, such as logistic regression and support vector machines, are employed for classification tasks. 
+The evaluation includes performance metrics such as accuracy, precision, recall, and F1-score. Additionally, techniques like k-fold cross-validation and confusion matrix analysis are used for model validation and performance assessment.
+
+The research aims to contribute to the field of railway monitoring by leveraging AI and NLP techniques to enhance the analysis of instrumented wagon data and improve the identification and understanding of occurrences. By combining data from different sources and applying advanced NLP algorithms, this project provides valuable insights into the occurrences and their impact on sensor readings, facilitating efficient maintenance and decision-making processes.
+
+
+## Pipeline
+The pipeline consists of the following steps:
 
 1. Data loading from various sources: CSV files, Pickle files, XLS files, and PostgreSQL databases.
 2. Text preprocessing: cleaning, spelling correction, and data preprocessing using NLP techniques.
@@ -50,13 +59,10 @@ To run the project, follow these steps:
 
 Make sure to update the file paths and configurations in the code as needed.
 
-## Research Article
-
-This project is developed to support the research article titled "Exploring NLP Techniques for Occurrence Identification in Instrumented Wagon Data." The article investigates the application of NLP techniques to identify occurrences in instrumented wagon data and presents an in-depth analysis of the findings.
-
+#
 ## Authors
 
-This code was developed by the Data Science Laboratory at the Polytechnic School of the University of São Paulo, led by researchers Wellingthon Queiroz and Osvaldo Gogliano.
+This code was developed by the **Data Science Laboratory at the Polytechnic School of the University of São Paulo**, led by researchers Wellingthon Queiroz and Osvaldo Gogliano.
 
 - Wellingthon Queiroz (Tony Dias) - tonydiasq@gmail.com
 - Osvaldo Gogliano - ogogli@gmail.com
